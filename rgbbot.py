@@ -32,7 +32,7 @@ async def color_role(ctx):
     while True:
         if colo <= 50:
             await role.edit(color= discord.Colour(colors[colo]))
-            await asyncio.sleep(2)
+            await asyncio.sleep(5)
             colo = colo + 1
         else:
             colo = 0
