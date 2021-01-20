@@ -1,1 +1,1 @@
-worker: python botnitagas.py
+worker: python rgbbot.py
